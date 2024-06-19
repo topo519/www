@@ -1,0 +1,61 @@
+/* Estilos generales de la maquetación */
+
+.encabezado{
+  padding: 15px;
+  /*se puede agregar una imagen como fondo*/
+ /*background-image: url(archivosimg/fondo.jpeg); */
+  /*se puede agregar un color como fondo*/  
+  background-color: #85C1E9;*/    
+}
+
+.piepag{
+  padding: 10px;
+  /*se puede agregar una imagen como fondo*/
+  background-image: url(archivosimg/fondo.jpeg);
+  /*se puede agregar un color como fondo*/  
+  background-color: #1F618D;*/ 
+}
+
+.menu_HOR {
+  width: 10000px;
+  /*se puede agregar una imagen como fondo*/
+  /*background-image: url(archivosimg/inteligencia.jpg);*/
+  /*se puede agregar un color como fondo*/  
+  background-color: #154360;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.bodyfondo{background-image: url(archivosimg/xd.jpeg);
+    padding: 10px 10 px;
+    box-shadow: -100px -100px 100px 100px }
+
+
+ul {
+    list-style-type: none; /* Quitamos los puntos de la lista */
+}
+
+li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+}
+
+li a {
+    display: inline-block; /* Hacemos que los enlaces se comporten como bloques en línea */
+    padding: 10px 20px; /* Espacio interno alrededor del texto del enlace */
+    color: #FFFFFF; /* Color del texto del enlace */
+    text-decoration: none; /* Quitamos la subrayado del enlace */
+}
+
+li a:hover {
+    background-color: #6699CC; /* Cambiamos el color de fondo al pasar el cursor sobre el enlace */
+}
+maquetaHOR.css
+Mostrando maquetaHOR.css
+MAQUETACIÓN
+Lourdes HT
+
+maquetacionHOR_ALUMNOS.html
+HTML
+
+maquetaHOR.css
+Style Sheet

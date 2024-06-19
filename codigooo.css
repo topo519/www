@@ -1,0 +1,200 @@
+/* Bruno */
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+/* Beba Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*Rubik Scribble*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+/*Dancing*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Cedarville Cursive*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&display=swap');
+
+/* Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Whisper&display=swap');
+ 
+.TextoBruno{
+    /*alineación */
+    text-align: center;
+    /* tipo de fuente*/
+    font-family: 'Bruno Ace SC', cursive;
+    /*grosor de la letra */
+    font-weight: 1000;
+    /* interlineado */
+    line-height: 3;
+    /*color del texto*/
+    color:#000000;
+    /*tamaño del texto*/
+    font-size: 40px;
+}
+
+.TextoBebas{
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#3300CC;
+  font-size: 30px;
+  text-align: center;
+   line-height: 3;
+}
+
+.TextoCursive{
+font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+ color:#333333;
+  font-size: 40px;
+  text-align: center;
+   line-height: 1.5;
+}
+
+.TextoDancing{
+  .dancing-script
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style: normal;
+ color: #333333;
+  font-size: 40px;
+  text-align: justify;
+   line-height: 1.5;
+}
+
+.TextoWhisper{
+font-family: "Whisper", normal;
+  font-weight: 400;
+  font-style: normal;
+  color:#FF9900;
+  font-size: 40px;
+  text-align: center;
+   line-height: 1.5;
+}
+.bodyfondo{background-image: url(archivosimg/fondoo.jpg);
+    padding: 10px 10 px;
+    box-shadow: -100px -100px 100px 100px }
+
+/* Estilos generales de la maquetación */
+
+.encabezado{
+  padding: 15px;
+  /*se puede agregar una imagen como fondo*/
+  /* background-image: url(img/fondomaq.avif); */
+  /*se puede agregar un color como fondo*/  
+  background-color: #336699;*/    
+}
+.piepag{
+  padding: 10px;
+  /*se puede agregar una imagen como fondo*/
+  background-image: url(archivosimg/fondooo.jpg);
+  /*se puede agregar un color como fondo*/  
+  /*background-color: #000000;*/  
+}
+
+.menu_HOR {
+  width: 980px;
+  /*se puede agregar una imagen como fondo*/
+  /*background-image: url(img/fondomaq.avif);*/
+  /*se puede agregar un color como fondo*/  
+  background-color: #1A5276;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+
+ul {
+    list-style-type: none; /* Quitamos los puntos de la lista */
+}
+
+li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+}
+
+li a {
+    display: inline-block; /* Hacemos que los enlaces se comporten como bloques en línea */
+    padding: 10px 20px; /* Espacio interno alrededor del texto del enlace */
+    color: #FFFFFF; /* Color del texto del enlace */
+    text-decoration: none; /* Quitamos la subrayado del enlace */
+}
+
+li a:hover {
+    background-color: #6699CC; /* Cambiamos el color de fondo al pasar el cursor sobre el enlace
+text-align: cursive;
+margin-top: 100%;
+}
+body{
+    font-family:'Roboto Mono',monospace;
+}
+@font-face{
+    font-family: fuente random;
+    src: url()
+}
+.img_forma:hover{
+border-radius:50%; /*redondea la imagen*/
+box-shadow: -5px 10px 10px 5px #99FFFF;
+}
+}
+    .img_transforma{
+
+    margin: 10 auto;
+
+    display: block;
+    transition: all 0.1s;/*Tiempo que tardara en hacer el cambio*/
+}
+.img_transforma:hover{
+    margin: 0 auto;
+    transform: scale(1.5);
+}
+.htmlfondo1{background-image: url(archivosimg/xd.jpeg);
+}
+.bodyfondo{background-image: url(archivosimg/xd.jpeg);
+    padding: 10px 10px;
+    box-shadow: -90px -50px 80px 50px #FF33FF;
+}
+h1 {
+text-align: cursive;
+margin-top: 100%;
+}
+body{
+    font-family:'Roboto Mono',monospace;
+}
+@font-face{
+    font-family: fuente random;
+    src: url()
+}
+.img_forma:hover{
+border-radius:50%; /*redondea la imagen*/
+box-shadow: -5px 10px 10px 5px #99FFFF;
+}
+    .img_transforma{
+
+    margin: 10 auto;
+
+    display: block;
+    transition: all 0.1s;/*Tiempo que tardara en hacer el cambio*/
+}
+.img_filtros{
+    
+/* centra la imagen y fija*/
+margin: 0 auto;
+display:block;
+}
+.img_transforma{
+
+    margin: 0 auto;
+
+    display: block;
+    transition: all 0.1s;
+}
+.img_filtros:hover {
+    margin: 0 auto;
+    filter: blur(10px); /*desenfoque de la imagen*/
+    filter: grayscale(100%);*/ /*escala de grises*/
+    filter: sepia(60%); /*escala sepia(tonos cafes)*/
+    filter: opacity(0.5); /*transparencia*/
+}

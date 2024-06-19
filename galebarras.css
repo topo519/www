@@ -1,0 +1,105 @@
+/*  CAPAS CONTENEDORAS  */
+ 
+/*CENTRA EL CONTENEDOR DE LAS IMÁGENES DEFIEN EL ANCHO LO PUEDES MODIFICAR*/
+.center{
+  width: 10000px;
+  float: left;
+  float: right;    
+  }
+
+
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+ #galeria {
+  padding:0;
+  margin:70px auto 0 auto;
+  list-style-type:none;
+  height:400px;
+  width:1000px;
+  }
+
+/* BARRA QUE CONTIENE LA IMAGEN*/
+#galeria li {
+  width:60px;
+  height:400px;
+  float:left;  
+  border-left:2px solid #00FFFF;/*COLOR DEL BORDE DE CADA IMAGEN*/
+  }
+
+/*LA IMAGEN EN LA BARRA*/
+#galeria li img {
+  height:400px;
+  width:200px;
+  border:0;
+  }
+
+/*ACCIONES QUE REALIZA AL PASAR EL CURSOR SOBRE LA IMAGEN*/
+#galeria li:hover {
+  background:#eee;
+  width:400px;
+  }
+#galeria li:hover img {
+  width:400px;
+  }
+/* Beba Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.TextoBebas{
+ font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#3300CC;
+  font-size: 30px;
+  text-align: center;
+   line-height: 3;
+}
+/* Estilos generales de la maquetación */
+
+.encabezado{
+  padding: 15px;
+  /*se puede agregar una imagen como fondo*/
+ /*background-image: url(archivosimg/fondo.jpeg); */
+  /*se puede agregar un color como fondo*/  
+  background-color: #85C1E9;*/    
+}
+.bodyfondo{background-image: url(archivosimg/fondoo.jpg);
+    padding: 10px 10 px;
+    box-shadow: -100px -100px 100px 100px }
+
+.piepag{
+  padding: 10px;
+  /*se puede agregar una imagen como fondo*/
+  background-image: url("archivosimg/fondo.jpeg");
+  /*se puede agregar un color como fondo*/  
+  background-color: #1F618D;*/  
+}
+
+.menu_HOR {
+  width: 980px;
+  /*se puede agregar una imagen como fondo*/
+  /*background-image: url(archivosimg/inteligencia.jpg);*/
+  /*se puede agregar un color como fondo*/  
+  background-color: #154360;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+
+ul {
+    list-style-type: none; /* Quitamos los puntos de la lista */
+}
+
+li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+}
+
+li a {
+    display: inline-block; /* Hacemos que los enlaces se comporten como bloques en línea */
+    padding: 10px 20px; /* Espacio interno alrededor del texto del enlace */
+    color: #FFFFFF; /* Color del texto del enlace */
+    text-decoration: none; /* Quitamos la subrayado del enlace */
+}
+
+li a:hover {
+    background-color: #6699CC; /* Cambiamos el color de fondo al pasar el cursor sobre el enlace */
+}
